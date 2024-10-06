@@ -1,0 +1,104 @@
+﻿##### EXERCICIOS #####
+
+
+01)
+def media(a, b, c):
+    return (a + b + c) / 3
+
+
+print(media(5, 10, 15))
+
+
+02)
+def maior_idade(x):
+    return x >= 18  
+
+
+idade = int(input("Digite a idade: "))
+if maior_idade(idade):                  
+    print("Maior de idade")
+else:
+    print("Menor de idade")
+
+
+
+
+        
+##### MODULO #####
+
+
+01)
+# from nome_do_modulo import função
+
+
+# print(função(parâmetro))
+
+
+# from meu_modulo import dobro
+# from meu_modulo import triplo
+
+
+# IMPORTA TODAS AS FUNCOES
+from meu_modulo import * 
+
+
+print(dobro(10))
+print(triplo(10))
+
+
+02)
+def dobro(n):
+    return n * 2
+
+
+def triplo(x):
+    return x * 3
+
+
+
+
+
+
+##### PACOTES #####
+
+
+# subpacotes #
+
+
+__init__.py
+from meu_pacote.subpacote import modulo3
+
+
+modulo3.py
+def funcao3():
+    return "Função 3 executada"
+
+
+# meu_pacote #
+
+
+__init__.py
+from .modulo1 import funcao1
+from .modulo2 import funcao2
+
+
+modulo1.py
+def funcao1():
+    return "Função 1 executada"
+
+
+modulo2.py
+def funcao2():
+    return "Função 2 executada"
+
+
+# PACOTE GERAL #
+
+
+main.py
+from meu_pacote import *
+
+
+print(modulo1.funcao1())
+print(modulo2.funcao2())
+print(modulo3.funcao3())
