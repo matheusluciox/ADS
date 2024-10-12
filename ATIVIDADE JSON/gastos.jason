@@ -1,0 +1,36 @@
+{
+  "gastos": [
+    {
+      "id": 1,
+      "descricao": "Compra de alimentos",
+      "valor": 500.00,
+      "categoria": "Alimentação",
+      "data_despesa": "2024-10-10",
+      "forma_pagamento": "Cartão de Crédito",
+      "estabelecimento": "Supermercado XYZ",
+      "pago": true
+    },
+    {
+      "id": 2,
+      "descricao": "Gasolina",
+      "valor": 200.00,
+      "categoria": "Transporte",
+      "data_despesa": "2024-10-11",
+      "forma_pagamento": "Dinheiro",
+      "estabelecimento": "Posto de Gasolina ABC",
+      "pago": false
+    },
+    {
+      "id": 3,
+      "descricao": "Conta de Internet",
+      "valor": 100.00,
+      "categoria": "Serviços",
+      "data_despesa": "2024-10-12",
+      "forma_pagamento": "Débito",
+      "estabelecimento": "Fornecedor de Internet",
+      "pago": true
+    }
+  ],
+  "total_gastos": 800.00,
+  "moeda": "BRL"
+}
