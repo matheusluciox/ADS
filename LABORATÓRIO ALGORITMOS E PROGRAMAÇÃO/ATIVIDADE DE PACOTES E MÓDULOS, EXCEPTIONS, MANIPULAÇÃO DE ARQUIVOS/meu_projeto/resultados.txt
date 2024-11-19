@@ -1,0 +1,5 @@
+A soma de 2.0 e 2.0 é: 4.00
+A divisão de 2.0 e 2.0 é: 1.00
+A área do retângulo de largura 2.0 e altura 2.0 é: 4.00
+O calculo do raio do circulo é: 0.80
+A area do circulo é: 12.56
